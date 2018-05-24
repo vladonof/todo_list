@@ -17,4 +17,4 @@ app.get("/", function(req, res){
     
 app.listen(port, process.env.IP, function(){
     console.log("APP IS RUNNINIG ON PORT " + port);
-})
+});

@@ -5,7 +5,6 @@ POST            /api/todos              Create new todo
 GET             /api/todos/:todoId      Retrieve a todo
 PUT             /api/todos/:totoId      Update a todo
 DELETE          /api/todos/:todoId      Delete a todo
-
-
-Creating an api using mongoose for MongoDB and express on NodeJS.
-
+ 
+1. An api using mongoose for MongoDB and express on NodeJS.
+2. A simple todolist app on top of the todo api.
