@@ -15,8 +15,8 @@ var todoSchema = new mongoose.Schema({
        default: Date.now
    }
 });
+var Todo = mongoose.model('Todo', todoSchema);
 
 
-// name
-// completed
-// created_date
+
+module.exports = Todo;
