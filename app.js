@@ -7,10 +7,13 @@ var express       = require("express"),
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(__dirname + "/views"));
+app.use(express.static(__dirname + "/public"));
+
 app.use('/api/todos', todoRoutes);
 
 app.get("/", function(req, res){
-    res.send("wtffff");
+    res.sendFile("index.html");
 });  
     
     
