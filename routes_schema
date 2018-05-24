@@ -1,0 +1,9 @@
+VERB                ROUTES                  DESC
+GET             /api/todos              List all todos
+POST            /api/todos              Create new todo
+GET             /api/todos/:todoId      Retrieve a todo
+PUT             /api/todos/:totoId      Update a todo
+DELETE          /api/todos/:todoId      Delete a todo
+
+Responding with json api.
+
